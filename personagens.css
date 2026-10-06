@@ -1,0 +1,67 @@
+*{ /* O "*" serve para selecionar todos os elementos da página  */
+    margin: 0%; /* O margin serve para diminuir ou almentar o espaço externo entre as bordas */
+    padding: 0%; /* O margin serve para diminuir ou almentar o espaço interno entre as bordas */
+
+
+}
+
+
+
+
+
+header{
+    background-color: #ededec; /* serve para colorir o fundo de uma tag expecifica como o header */
+    width: 100%; /* serve para alterar a largura de imagens ou textos  */
+    height: 270px;
+    text-align: center; 
+}
+#principal{
+    width: 30%;
+    text-align: center; /* O text-align serve para definir como o texto fica alinhado*/
+}
+a{
+    margin-top: 5%;
+    background-color: #46b077;
+    color: black;
+    padding: 1%;
+    border-radius: 25px;
+}
+body{
+    background-color: #4b2d2d;
+}
+
+.card-personagens{
+    justify-content: center;
+    background-color: #ededec;
+    width: 25%;
+    height: 400px;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.gelo{
+    width: 250px;
+    height: 250px;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+    
+}
+.gelado{
+    margin-top: 5%;
+    background-color: #46b077;
+    padding: 1%;
+    border-radius: 25px;
+}
+h2{
+
+}
